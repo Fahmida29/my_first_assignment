@@ -1,7 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
-    position: absolute;
+    position: relative;
 }
 .flexible-container {
     display: flex;
@@ -129,6 +129,7 @@ body {
     text-decoration: none;
     margin-right: 350px;
 }
+
 .year img{
     display: flex;
     width: 319.83px;
@@ -245,6 +246,7 @@ body {
 .new-year {
     width: 30%;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .new-year h3{
     color: #F00;
@@ -263,7 +265,7 @@ body {
     font-weight: 400;
     line-height: 28px;
     margin-top: auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .function h5{
     color: #070211;
@@ -273,6 +275,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 20px;
 }
 .holidays{
     color: #F00;
@@ -282,8 +285,12 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+} 
+.function{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 50px;
 }
-    
 .function h2{
     color: #070211;
     text-align: center;
@@ -292,19 +299,21 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
 .function p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
+    margin-top: 0%;
 }
 .function-holidays{
     margin-top: 50px;
-    margin-left: 50px;
     
     /* background-attachment: fixed; */
 }
@@ -315,28 +324,34 @@ body {
     background-image:url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 90%;
+    background-size: 1150px 168px;
+    padding-top: 5px;
 }
 .group-75{
     width: 650px;
     height: 600px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     flex-shrink: 0;
     
+}
+.rectangle-1{
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    background-size: cover;
+    margin-left: 120px;
+    flex-shrink: 0;
+
 }
 .group-44{
     width: 206.841px;
     height: 206.841px;
-    /* margin-left: 50px; */
-    flex-shrink: 0;
-    fill: #F00;
-}
-.rectangle-1{
-    width: 390px;
-    height: 399px;
-    flex-shrink: 0;
-    border-radius: 16px 16px 0px 0px;
-    background: url('../images/Group\ 44.png'), lightgray -59.98px 0px / 151.553% 100% no-repeat;
-
+    position: absolute;
+    right: 350px;
+    padding-top: 120px;
 }
 .gift h5{
     color: #F00;
