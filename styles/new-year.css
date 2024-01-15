@@ -434,31 +434,21 @@ body {
     margin-left: 215px;
     margin-right: 215px;
 }
-.subscribe button{
-    color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 600px;
-    height: 60px;
-    flex-shrink: 0;
+button{
+    text-align: left;
     border-radius: 50px;
     background: #FFF;
     border-style: none;
-    margin-bottom: 70px;
+    width: 600px;
+    margin-bottom: 50px;
     margin-left: 300px;
     margin-right: 300px;
-    padding-left: 20px;
+    padding: 20px;
+    
 }
-.subscribe a{
+button .submit{
     color: #FFF;
-    text-align: center;
     text-decoration: none;
-    width: 600px;
-    height: 60px;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -469,9 +459,9 @@ body {
     border-style: none;
     background: #F00;
     padding: 18px 50px;
-    margin-left: 249.8749px;
-    background-attachment: fixed;
-    object-fit: cover;
+    /* background-attachment: fixed; */
+    margin-right: auto;
+    margin-left: 283px;
 }
 footer{
     width: 100%;
